@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="70" tileheight="70" nextobjectid="5">
+ <tileset firstgid="1" name="tileset" tilewidth="70" tileheight="70" spacing="2" margin="2">
+  <image source="tileset.png" width="1658" height="218"/>
+  <tile id="2">
+   <properties>
+    <property name="quarterTile" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="NO WALLS" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0SEKACAQRFGjZxDvf06rRdQgDPge/LRhw5QCAMArfdHuftvp39clqlPtsxLZI4s9stgjiz0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/jYApY8k2Q==
+  </data>
+ </layer>
+ <layer name="walls" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0OsKgzAMBtD86xhuzsv7P6tFFEpRRESGcA58NCS0hEYAAESkE/N3zlCluWmvJyr/5bP0+pyxqNf52kvVWUo7delV5ehu/U6b89tIt7HzXsbgqu+/FwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGYTdbMCtg==
+  </data>
+ </layer>
+ <objectgroup name="entities">
+  <object id="1" name="player" x="97.333" y="355.667"/>
+  <object id="2" name="bottom" x="6" y="577"/>
+  <object id="3" name="end" x="4396" y="405"/>
+  <object id="4" name="key" x="4139" y="403"/>
+ </objectgroup>
+</map>

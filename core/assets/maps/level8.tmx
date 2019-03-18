@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="70" tileheight="70" nextobjectid="5">
+ <properties>
+  <property name="slipperiness" value="0.835"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="70" tileheight="70" spacing="2" margin="2">
+  <image source="tileset.png" width="1658" height="218"/>
+  <tile id="2">
+   <properties>
+    <property name="quarterTile" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="NO WALLS" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2LENwDAIBEDPEWWC7D9gaqR0jo1BdxI16L9jDACgk7vBVHc1mx19r+w9O7+/59m0Z5Xs/PQRZeenjyg7P31E2fnpAwCAk3X543VS6e962j2zquT+pcKNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkOkFelg30Q==
+  </data>
+ </layer>
+ <layer name="walls" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt01sKgzAQBVC3Y6nNV/a/NeNHYQjxURBt2nPggiRxEHIdBoD+jeH5WZJLXh/st9amkrQyo54X3/tn4/6Ry23d1db3tvbi2tKPpTOpce4OOaT3Prb+x+hoz76xj716nDjrfb91eu8tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwW2asJwf7
+  </data>
+ </layer>
+ <objectgroup name="entities">
+  <object id="1" name="player" x="97.803" y="332.091"/>
+  <object id="2" name="bottom" x="7" y="439"/>
+  <object id="3" name="key" x="5182" y="408"/>
+  <object id="4" name="end" x="5454" y="413"/>
+ </objectgroup>
+</map>
